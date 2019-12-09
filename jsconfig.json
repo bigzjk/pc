@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "ES6",
+      "module": "es6",
+      "baseUrl": "src",
+      "paths": {
+        "@/*": ["*", "*/index"]
+      }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+  }
